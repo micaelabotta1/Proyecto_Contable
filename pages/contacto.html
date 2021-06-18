@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2? family = Itim & family = Open + Sans: ital, wght @ 0,300; 0,400; 1,300 & display = swap "
+      rel=" stylesheet "
+    />
+  </head>
+  <body>
+    <header class="menu">
+      <h2 class="logo-titulo"><a href="../index.html">€ TAMOLA & ASOC.</a></h2>
+      <!--<img src="img/modelo2.png" class="imagen-logo"><-->
+      <nav>
+          <!--barra de navegacion-->
+
+          <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="nosotros.html">Nosotros</a></li>
+              <li><a href="servicios.html">Servicios</a></li>
+              <li><a href="trabajar.html">Trabaja con Nosotros</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+      </nav>
+  </header>
+    <!--comienzo de formulario de contacto-->
+    <form action="" method="get" class="formulario">
+      <label for="nombre_apellido" class="nombre_apellido"
+        >NOMBRE Y APELLIDO</label
+      >
+      <input
+        type="text"
+        name="nombre y apellido"
+        id="nombre_apellido"
+        placeholder="Ingrese su nombre y apellido"
+      />
+      <br /><br />
+      <label for="nombre_apellido" class="nombre_apellido">E MAIL</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Ingrese su email"
+      />
+      <br /><br />
+      <label for="Telefono" class="nombre_apellido">TELEFONO</label>
+      <input
+        type="text"
+        name="telefono"
+        id="telefono"
+        placeholder="Ingrese su numero"
+      />
+      <br /><br />
+      <!--selector de opciones-->
+      <select name="profesion" id="profesion">
+        <option value="c">Contador</option>
+        <option value="a">Abogado</option>
+        <option value="c">Criminalista</option>
+        <option value="p">Profesor</option>
+      </select>
+      <br /><br />
+      <!--Comentarios-->
+      <fieldset>
+        <legend class="comentario">Dejanos un mensaje</legend>
+        <textarea
+          name="comentario"
+          id="comentario"
+          cols="150"
+          rows="20"
+        ></textarea>
+      </fieldset>
+      <!--cierre de comentarios-->
+      <!--selector de opcion-->
+      <br />
+      <label for="nwslatter" class="comentario"
+        >¿Queres conocer mas acerca del estudio?</label
+      >
+      si<input type="radio" name="newslatter" id="newslatter" /> No<input
+        type="radio"
+        name="newslatter"
+        id="newslatter"
+      />
+      <br /><br />
+      <!--cierre de selector de opcion-->
+      <input type="submit" value="ENVIAR" />
+      <!--boton de enviar-->
+      <input
+        type="reset"
+        value="BORRAR"
+      /><!--boton de resetear informacion introducida-->
+      <br />
+      <br />
+      <button class="boton">CONSULTAR</button>
+    </form>
+    <!--cierre de formulario-->
+
+    <footer class="footer-distributed">
+<!--borrador redes sociales
+      <div class="footer-right">
+  
+          <img src="../img/facebook.png" width="25%" class="icono-red">
+          <img src="../img/instagram.png" width="25%"class="icono-red">
+          <img src="../img/logotipo-de-linkedin.png" width="25%" class="icono-red">
+  
+      </div>
+    -->
+      <div class="footer-left">
+  
+          <p class="footer-links">
+              <a class="link-1" href="#">HOME</a>
+  
+              <a href="#">NOSOTROS</a>
+  
+              <a href="#">SERVICIOS</a>
+  
+              <a href="#">TRABAJA CON NOSOTROS</a>
+  
+              <a href="#">CONTACTO</a>
+  
+          </p>
+  
+          <p>TAMOLA & ASOCIADOS &copy; 2021</p>
+      </div>
+  
+  </footer>
+  
+  </body>
+</html>

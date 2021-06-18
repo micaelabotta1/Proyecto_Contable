@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    margin-right: 50px;
+  
+}
+.menu{
+    display: flex; /*poder mostrar los elementos, para manupularlos*/
+    justify-content: space-between; /*justificar el contenido*/
+    align-items: center; /*alinear al centro*/
+    background: #ece08885;
+    height: 78px;
+    
+}
+/*lista del menu*/
+ul{
+    display: flex;
+  
+}
+/*logo de nav*/
+.imagen-logo{
+    width: 150px; /*ancho*/
+    margin-left: 30px;
+}
+/*logo-titulo*/
+.logo-titulo{
+  color: black;
+  font-weight: 900;
+  margin-left: 5%;
+}
+
+/*letra de menu de nav*/
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+/*lista de menu - color de posicion del mouse*/
+ul li :hover{
+    color: white;
+
+}
+/*titulo de asesoramiento contable*/
+h1.asesoramiento-contable{
+    font-family:'Roboto', sans-serif;;
+    font-weight: 800;
+    margin-left:40%;
+    margin-top: 8%;
+    font-size: 30px;
+}
+/*carrousel de imagenes*/
+/*sola iamgen provisorio*/
+.carrousel{
+    width: 100%;
+    margin-top: 5%;
+}
+
+/*titulo de servicios*/
+.titulo-servicios{
+    font-family:'Roboto', sans-serif;
+    font-weight: 800;
+    margin-left:45%;
+    margin-top: 5%;
+}
+
+/*servicios*/
+.contenedor-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+  }
+  
+  .servicio {
+    width: 25%;
+    padding: 50px 38px 50px 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  
+  .violeta {
+    background: rgb(37 93 193 / 45%);
+  }
+  
+  .celeste {
+    background: #5686ad;
+  }
+  
+  .servicio h4 {
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  .servicio img {
+    float: right;
+  }
+  
+  /*titulo de servicio*/
+  h4.titulo-servicio{
+    text-align: center;
+  }
+ /*formulario*/
+ .nombre_apellido{
+  color: #0271A4;
+  font-family: 'Roboto', sans-serif;
+ }
+.formulario{
+  margin-top: 3%;
+  margin-left: 3%;
+}
+.comentario{
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+.boton{
+  background-color: ghostwhite;
+}
+.boton:hover{
+color: darkslateblue;
+}
+/*seccion de nosotros*/
+/*h2 quienes somos*/
+h2.quienes_somos {
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 7%;
+}
+p.parrafo_quienes_somos{
+  margin-top: 5%;
+  margin-left: 10%;
+}
+img.img_quienes_somos {
+  margin-top: 8%;
+  width: 36%;
+  margin-left: 10%;
+  border: 6px outset;
+}
+.img2_quienes_somos{
+  margin-top: 8%;
+  width: 36%;
+  margin-left: 10%;
+  border: 6px outset;
+}
+/*nuestra vision y mision*/
+.contenedor_vision{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+
+}
+/*tiitulo valor*/
+h4.titulo_valor{
+  font-family:'Roboto', sans-serif; 
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(26, 82, 134);
+}
+.valor{
+  background-color: khaki;
+  width: 25%;
+  border-radius: 10px;
+  padding: 30px 38px 50px 38px;
+}
+.valor_2{
+  background-color: khaki;
+  width: 25%;
+  border-radius: 10px;
+  padding: 30px 38px 50px 38px;
+}
+.parrafo_valor{
+  text-align: center;
+  margin-top: 5%;
+  line-height: 25px;
+}
+.titulo-asociados {
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 9%;
+}
+/*footer*/
+/*
+.icono-red{
+  margin-right: 5%;
+}
+*/
+.footer-distributed {
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  margin-top: 7%;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 60%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color:rgb(253 254 255);
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+/*seccion servicios*/
+.servicios{
+  width: 100%;
+  height: 450px;
+}
+img.servicios {
+  margin-top: 5%;
+}
+.parrafo_1{
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+.parrafo_2{
+  text-align: center;
+  margin-left:6% ;
+  margin-top: 5%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+.banner_servicios{
+  width: 100%;
+  margin-top: 5%;
+}
+/*banner servicios*/
+.banner_servicios:hover {filter: opacity(.5);
+}
+.titulo_servicios{
+  text-align: center;
+  margin-top: 5%;
+}
+
+/*contenedor-general*/
+.contenedor-general {
+  background-color: darkgrey;
+  
+}
+/*seccion trabajar con nostros*/
+p.parrafo {
+  margin-top: 5%;
+  line-height: 21px;
+  text-align: center;
+}
+
+/*GRID SECCION SERVICIOS*/
+.grillaDeImagenes{
+  display: grid;
+  grid-template-columns:50% 50% ; /*designar columnas*/
+  grid-template-rows:300px 300px; /*definis filas*/
+  grid-template-areas: "foto1 foto2" /*defino area, le doy un valor a cada area*/
+                        "foto3 foto3";
+  row-gap: 10px; /*espacio de la fila*/
+  column-gap: 10px; /*espacio de la columna*/
+  background-color:rgba(53, 50, 50, 0.993);
+                        
+}
+
+.imagen1{
+  grid-area: foto1;
+}
+
+.imagen2{
+  grid-area: foto2;
+}
+
+.imagen3{
+  grid-area: foto3;
+}
+
+img{
+  width:100%;
+  height: 100%;
+}
